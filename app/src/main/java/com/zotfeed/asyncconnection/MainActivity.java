@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
                             JSONObject jsonObject = jsonArray.getJSONObject(i);
 
                             String name = jsonObject.optString("title").toString();
-                            data += "Movie Title: " + name + " " + moviename + "\n";
+                            data += "Movie Title: " + name + " " + moviename + "\n"; // might need to remove it
                         }
                         output.setText(data); // change output to NOT final
                     } catch (JSONException e) {Log.d("MLM:","Wrong JSON");}
