@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fabflix Android</string>
+    <string name="searchActivityTitle">Search by Movie Title</string>
+    <string name="hintSearchText">Enter your text in here</string>
+    <string name="searchButton">Search</string>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
